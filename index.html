@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Cat & Dog</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/styleAnimation.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Sahitya:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="content" id="content">
+      <div class="formBtnAnimals">
+        <button class="btn btn-light cat" id="cat">Коты</button>
+        <button class="btn btn-light dog" id="dog">Собаки</button>
+      </div>
+    </div>
+
+    <div class="interview" id="interview">
+      <div class="image" id="image">
+        <div class="imgPosition" id="imgPosition"></div>
+      </div>
+      <div class="formMenu">
+        <button class="btn btn-success likeBtn" id="likeBtn">
+          <i class="fas fa-thumbs-up"></i> <span>Нравится</span>
+        </button>
+        <button class="btn btn-danger dislikeBtn" id="dislikeBtn">
+          <i class="fas fa-thumbs-down"></i> <span>Не нравится</span>
+        </button>
+        <button class="btn btn-info resultBtn" id="resultBtn">
+          <i class="fas fa-poll"></i> <span>Результаты</span>
+        </button>
+        <button class="btn btn-dark menuBtn" id="menuBtn">
+          <i class="fas fa-undo"></i> <span>В меню</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="resultInfo" id="resultInfo">
+      <div class="infoLikeDislike" id="infoLikeDislike"></div>
+      <div class="imageAll" id="imageAll">
+        <div class="positionGridCard" id="positionGridCard"></div>
+      </div>
+      <div class="info" id="info"></div>
+      <button class="btn btn-dark returnBtn" id="returnBtn">
+        <i class="fas fa-undo"></i> <span>Назад</span>
+      </button>
+    </div>
+
+    <script src="./script/script.js"></script>
+  </body>
+</html>
